@@ -1,12 +1,6 @@
 CC      := gcc
 CFLAGS  := -O2 -Wall -Wextra -pthread
 LDFLAGS := -pthread
-# Uncomment to add sanitizers when debugging:
-# CFLAGS  += -fsanitize=address -fsanitize=undefined
-# LDFLAGS += -fsanitize=address -fsanitize=undefined
-# For thread sanitizer (slower):
-# CFLAGS  += -fsanitize=thread
-# LDFLAGS += -fsanitize=thread
 
 INCLUDES := -I.
 
